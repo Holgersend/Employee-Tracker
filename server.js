@@ -12,3 +12,24 @@ const db = mysql.createConnection(
     },
     console.log(`Connected to the employee_mgt_db database`)
 );
+
+// Add figlet 
+
+inquirer
+    .prompt ([
+        {
+            type: "list",
+            name: "",
+            message: "",
+            choices: [
+                "View all departments",
+                "View all roles",
+                "View all employees",
+                "Add a department",
+                "Add a role",
+                "Add a employee",
+                "Update an employee role",
+            ]
+        }
+    ])
+    .then
