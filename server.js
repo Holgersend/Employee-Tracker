@@ -19,8 +19,8 @@ inquirer
     .prompt ([
         {
             type: "list",
-            name: "",
-            message: "",
+            name: "options",
+            message: "Select what would you like to do:",
             choices: [
                 "View all departments",
                 "View all roles",
@@ -32,4 +32,11 @@ inquirer
             ]
         }
     ])
-    .then
+    .then((answer) => {
+        switch(answer.options){
+            case "View all departments":
+                viewAllDept();
+                break;
+        }
+    })
+
