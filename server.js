@@ -15,7 +15,7 @@ const db = mysql.createConnection(
 
 // Add figlet 
 
-
+// App
 inquirer
     .prompt ([
         {
