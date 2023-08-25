@@ -35,5 +35,5 @@ For any additional questions or information, please contact me:
 - Email:  holgersende@gmail.com
 
 ## Links 
-- Repo: () 
+- Repo: (https://github.com/Holgersend/Employee-Tracker) 
 - Video: ()
